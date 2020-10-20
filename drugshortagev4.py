@@ -1,4 +1,4 @@
-import requests,json, credentials,datetime, openpyxl,time, os
+import requests,credentials,datetime,openpyxl,time
 
 LOGIN_URL = 'https://www.drugshortagescanada.ca/api/v1/login'
 SEARCH_URL =  'https://www.drugshortagescanada.ca/api/v1/search?din='
